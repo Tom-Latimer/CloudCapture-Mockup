@@ -1,0 +1,24 @@
+// 2. Include any default variable overrides here
+$primary: #0465E1; 
+$body-color: #333138;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.horizontal-bar {
+    background-color: #7F9DC3;
+    width: 30%;
+    border-radius: 5px;
+    height: 5px;
+}
+
+.fs-1-1 {
+    font-size: 1.1rem;
+}
+
+#navbarContent {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.1rem;
+}
