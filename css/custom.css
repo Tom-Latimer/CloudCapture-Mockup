@@ -11844,15 +11844,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+/* Nav Bar */
 .horizontal-bar {
   background-color: #7F9DC3;
   width: 30%;
   border-radius: 5px;
   height: 5px;
-}
-
-.fs-1-1 {
-  font-size: 1.1rem;
 }
 
 #navbarContent {
@@ -11863,6 +11860,7 @@ textarea.form-control-lg {
   font-size: 1.1rem;
 }
 
+/* Footer */
 .cc-footer a {
   text-decoration: none;
   color: #333138;
@@ -11875,13 +11873,14 @@ textarea.form-control-lg {
 
 .cc-footer h5, .cc-footer .h5 {
   color: #0465E1;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .cc-footer-copyright {
   border-top: 0.15rem solid #0465E1;
 }
 
+/* Home Page */
 .hero-banner {
   background-image: url(../images/hero-banner-lg.png);
   background-position: center;
@@ -11900,16 +11899,6 @@ textarea.form-control-lg {
 
 .hero-text h1, .hero-text .h1 {
   font-weight: 800;
-}
-
-.underline {
-  text-decoration-line: underline;
-  text-decoration-style: solid;
-  text-decoration-skip-ink: auto;
-  text-decoration-color: #0465E1;
-  text-decoration-thickness: 10%;
-  text-underline-offset: 8%;
-  text-underline-position: from-font;
 }
 
 .homepage-service-row {
@@ -11931,6 +11920,49 @@ textarea.form-control-lg {
 .homepage-service-card a:hover {
   text-decoration: none;
   color: rgb(240, 234, 234);
+}
+
+/*Contact Page */
+.contact-banner-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-banner {
+  background-image: url(../images/contact-page-banner.png);
+  background-position: center;
+  padding: 10rem 12rem 12rem 10rem;
+  z-index: -1;
+}
+
+.contact-blurb {
+  background-color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 400px;
+  border-radius: 1px;
+}
+
+/* General */
+.underline {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-color: #0465E1;
+  text-decoration-thickness: 10%;
+  text-underline-offset: 8%;
+  text-underline-position: from-font;
+}
+
+.fs-1-1 {
+  font-size: 1.1rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
