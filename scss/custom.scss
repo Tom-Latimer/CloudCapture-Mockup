@@ -1,6 +1,14 @@
+//custom colours
+$purple-gray: #333138;
+$main-blue: #0465E1;
+
 // 2. Include any default variable overrides here
-$primary: #0465E1; 
-$body-color: #333138;
+$primary: $main-blue; 
+$body-color: $purple-gray;
+$navbar-light-color: $purple-gray;
+$navbar-light-hover-color: black;
+
+$font-family-base: "Raleway", serif;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -21,4 +29,23 @@ $body-color: #333138;
     top: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.1rem;
+}
+
+.cc-footer a{
+    text-decoration: none;
+    color: $purple-gray;
+}
+
+.cc-footer a:hover {
+    text-decoration: underline;
+    color: $main-blue;
+}
+
+.cc-footer h5 {
+    color: $main-blue;
+}
+
+.cc-footer-copyright {
+    border-top: 0.15rem solid $main-blue;
+    
 }
