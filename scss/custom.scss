@@ -43,9 +43,62 @@ $font-family-base: "Raleway", serif;
 
 .cc-footer h5 {
     color: $main-blue;
+    margin-top: 8rem;
 }
 
 .cc-footer-copyright {
     border-top: 0.15rem solid $main-blue;
+}
+
+.hero-banner {
+    background-image: url(../images/hero-banner-lg.png);
+    background-position: center;
+    height: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 35%;
+    left: 16vw;
+    width: 35rem;
+    //transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-text h1 {
+    font-weight: 800;
+}
+
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-color: $main-blue;
+    text-decoration-thickness: 10%;
+    text-underline-offset: 8%;
+    text-underline-position: from-font;
+}
+
+.homepage-service-row {
+    column-gap: 3rem; 
+    flex-wrap: nowrap;
     
+}
+
+.homepage-service-card {
+    padding: 0;
+    border: 0.2rem solid $main-blue;
+    border-radius: 1px;
+}
+
+.homepage-service-card a {
+    text-decoration: none;
+    color: white;
+}
+
+.homepage-service-card a:hover {
+    text-decoration: none;
+    color: rgb(240, 234, 234);
 }
