@@ -11959,6 +11959,12 @@ textarea.form-control-lg {
   transform: translate(-50%, -50%);
 }
 
+/* Portfolio */
+.portfolio-grid .col-12,
+.portfolio-grid .col-6 {
+  padding: 9.5px 9.5px 9.5px 9.5px;
+}
+
 /* General */
 .underline {
   text-decoration-line: underline;
