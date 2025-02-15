@@ -11965,6 +11965,11 @@ textarea.form-control-lg {
   padding: 9.5px 9.5px 9.5px 9.5px;
 }
 
+/* Services */
+.service-img-layout .col-md-auto {
+  padding: 6px 6px 6px 6px;
+}
+
 /* General */
 .underline {
   text-decoration-line: underline;
